@@ -1,5 +1,6 @@
 import operator
 
+
 def sort_dict_by_value(dic):
     """
     Sorts a dictionary by its values and returns a new dictionary.
@@ -15,6 +16,7 @@ def sort_dict_by_value(dic):
     # Convert the sorted items back into a dictionary
     sorted_dict = dict(sorted_items)
     return sorted_dict
+
 
 # Sample data dictionary
 data_dictionary = {'c': 23, 'd': 34, 'e': 21, 'a': 11, 'b': 13, 'f': 12}
